@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user scalable=no" />
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../CFGproject-master/css/contactus.css">
+    </head>
+ 
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:8888/CFGProj/CFGproject-master/index1.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Destinations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="http://localhost:8888/CFGProj/CFGproject-master/bali.html">Bali</a>
+              <a class="dropdown-item" href="#">Cuba</a>
+              <a class="dropdown-item" href="#">Greece</a>
+              <a class="dropdown-item" href="#">Egypt</a>
+              <a class="dropdown-item" href="#">Cambodia</a>
+              <a class="dropdown-item" href="#">New Zealand</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Testimonials <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:8888/CFGProj/CFGproject-master/contactus.html">Contact Us <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+  </header>
+  <main class="contactus-form">
+    <h1>Share your Experiences with Us!</h1>
+    <h2>We'd love to hear your experiences and your recommendations</h2>
+    
+<section>
+    <div id="form-main" style="background-position: 0px -100px;">
+        <div id="form-div">
+          <form class="form" id="form1">
+            
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+            
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+                
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+            </p>
+            <!-- User can now select the country/countries they have been to  -->
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Bali</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Cuba</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Greece</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Egypt</label>
+            </div>    
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Cambodia</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">New Zealand</label>
+            </div>
+            
+        <!-- This last checkbox must be selected in order to sumbit form -->
+            <p class= "countriesvisited">Please select the countries you have visited</p>
+       <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>     
+            
+            <div class="submit">
+              <input type="submit" value="SEND" id="button-blue"/>
+              <div class="ease"></div>
+            </div>
+          </form>
+        </div>
+
+</section>
+
+</main>
+
+
+
+<!-- <footer class="footer">
+    <p> 2020 Travel Log, Emma and Natalie</p>
+</footer>  -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
+
+
+
+
+</html>
+

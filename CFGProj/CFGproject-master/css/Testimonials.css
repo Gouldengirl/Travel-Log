@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap';
+@import '../css/global.css';
+@import '../css/home.css';
+
+
+/* Import prevents us repeating code  */
+.testimonial {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 18px 1px 18px;
+    margin-bottom: 98px;
+  
+     @media (min-width: 1010px) {
+      margin-bottom: 0;
+      padding: 0 1.8125rem 1px 1.8125rem;
+    }

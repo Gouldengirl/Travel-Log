@@ -1,0 +1,70 @@
+/* The global page for styling, do not touch */
+
+body {
+    background-color: whitesmoke;
+}
+
+
+h1 {
+    color: midnightblue;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 33.33%;
+    padding: 6px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 33.33%;
+    padding: 6px;
+    justify-content: center;
+}
+
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex: 33.33%;
+    padding: 6px;
+    justify-content: center;
+}
+
+.footer {
+    padding: 40px 20px;
+    /* height: 100% */
+} 
+.footer p {
+text-align: center;
+font-size: 0.8rem;
+}
+
+
+@media (max-width: 575px) {
+    /* .header {
+        height: 50px;
+    }
+
+    footer {
+
+    } */
+}

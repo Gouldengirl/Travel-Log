@@ -1,0 +1,21 @@
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap';
+@import '../css/global.css';
+@import '../css/home.css';
+
+.Bali-page {
+
+    min-height: 100vh
+}
+
+.Balipageimage {
+    position: absolute;
+    justify-content: center;
+    line-height: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

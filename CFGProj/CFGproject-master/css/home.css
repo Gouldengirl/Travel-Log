@@ -1,0 +1,50 @@
+/* Any styling for the homepage */
+
+.frontpage_lists_container {
+    flex: 33.33%;
+    align-self: center;
+    transition: transform .1s;
+}
+
+.frontpage_lists_container:hover {
+    transform: scale(1.1);
+}
+
+
+.frontpage-image figure{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+    
+}
+
+.frontpage-image figure img {
+    width: 100%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    transition: .7s ease-in-out;
+    -webkit-transform: .7s ease-in-out;
+        opacity: 1;
+}
+
+.frontpage-image figure:hover img {
+    transform: scale(1.3);
+    -webkit-trasform: scale(1.3);
+    opacity: 0.8;
+}
+
+
+/* @media (max-width: 575px) { */
+    /* .frontpage-image { */
+
+    /* } */
+    /* .header {
+        height: 50px;
+    }
+
+    footer {
+
+    } */
+/* 
